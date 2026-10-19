@@ -159,9 +159,5 @@
     }
   }
 
-  document.querySelector('#inquiry-form').addEventListener('submit', event => {
-    event.preventDefault();
-    document.querySelector('.form-result').hidden = false;
-  });
   void loadPortfolio();
 })();
