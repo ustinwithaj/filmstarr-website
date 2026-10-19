@@ -1,0 +1,132 @@
+{
+  "public": [
+    {
+      "id": "the-giant",
+      "title": "The Giant",
+      "poster": "assets/media/selected/the-giant.png",
+      "src": null,
+      "duration": "29:13",
+      "frameUrl": "https://next.frame.io/share/c622f5bc-6832-40a5-a884-58d6317b3ce0/view/16cbda31-35a1-4433-b2d1-ce022720a412"
+    },
+    {
+      "id": "bball-rslts-testimonial-1",
+      "title": "BBALL RSLTS — Testimonial 1",
+      "poster": "assets/media/selected/bball-rslts-testimonial-1.png",
+      "src": null,
+      "duration": "3:33",
+      "frameUrl": "https://next.frame.io/share/c622f5bc-6832-40a5-a884-58d6317b3ce0/view/13dfb24a-bb4a-4051-a673-78b9e808734f"
+    },
+    {
+      "id": "back-to-school-bash",
+      "title": "Back to School Bash",
+      "poster": "assets/media/selected/back-to-school-bash.png",
+      "src": null,
+      "duration": "4:51",
+      "frameUrl": "https://next.frame.io/share/c622f5bc-6832-40a5-a884-58d6317b3ce0/view/c99538bb-1557-459b-ad23-51edab5c189d"
+    },
+    {
+      "id": "optimus-primers",
+      "title": "Optimus Primers",
+      "poster": "assets/media/selected/optimus-primers.png",
+      "src": null,
+      "duration": "2:41",
+      "frameUrl": "https://next.frame.io/share/c622f5bc-6832-40a5-a884-58d6317b3ce0/view/97de4c88-6011-4018-9362-04f80cb95b58"
+    },
+    {
+      "id": "digital-dj-pool",
+      "title": "Digital DJ Pool",
+      "poster": "assets/media/selected/digital-dj-pool.png",
+      "src": null,
+      "duration": "0:36",
+      "frameUrl": "https://next.frame.io/share/c622f5bc-6832-40a5-a884-58d6317b3ce0/view/c6b60b2e-cff4-4633-ad58-7ab7fad931ee"
+    },
+    {
+      "id": "bball-rslts-testimonial-2",
+      "title": "BBALL RSLTS — Testimonial 2",
+      "poster": "assets/media/selected/bball-rslts-testimonial-2.png",
+      "src": null,
+      "duration": "2:36",
+      "frameUrl": "https://next.frame.io/share/c622f5bc-6832-40a5-a884-58d6317b3ce0/view/5f4dad42-7dc5-40cd-a59a-15a56c1ac6e5"
+    },
+    {
+      "id": "mandi-roman",
+      "hidden": true,
+      "title": "Mandi & Roman",
+      "poster": "assets/media/selected/mandi-roman.png",
+      "src": null,
+      "duration": "9:29",
+      "frameUrl": "https://next.frame.io/share/c622f5bc-6832-40a5-a884-58d6317b3ce0/view/1cf503e2-9cf7-4a7f-8a5e-7da8d556ef29"
+    },
+    {
+      "id": "dj-nelson-brooklyn-rooftop",
+      "title": "DJ Nelson — Brooklyn Rooftop",
+      "poster": "assets/media/selected/dj-nelson-brooklyn-rooftop.png",
+      "src": null,
+      "duration": "6:27",
+      "frameUrl": "https://next.frame.io/share/c622f5bc-6832-40a5-a884-58d6317b3ce0/view/bc11cadc-695f-401b-8a13-b9b8eaffca49"
+    },
+    {
+      "id": "victoria-billy",
+      "hidden": true,
+      "title": "Victoria & Billy",
+      "poster": "assets/media/selected/victoria-billy.png",
+      "src": null,
+      "duration": "8:51",
+      "frameUrl": "https://next.frame.io/share/c622f5bc-6832-40a5-a884-58d6317b3ce0/view/5a72699f-0478-49cd-88ea-574f9272e651"
+    }
+  ],
+  "broadcast": [
+    {
+      "id": "the-counterfeiter",
+      "title": "The Counterfeiter",
+      "image": "assets/media/broadcast/the-counterfeiter.png"
+    },
+    {
+      "id": "super-league-the-war-for-football",
+      "title": "Super League: The War for Football",
+      "image": "assets/media/broadcast/super-league-the-war-for-football.png",
+      "networkLogo": {
+        "name": "Apple TV",
+        "src": "assets/media/networks/apple-tv.svg",
+        "tone": "black"
+      }
+    },
+    {
+      "id": "dude-perfect-a-very-long-shot",
+      "title": "Dude Perfect: A Very Long Shot",
+      "image": "assets/media/broadcast/dude-perfect-a-very-long-shot.png",
+      "networkLogo": {
+        "name": "ESPN Films",
+        "src": "assets/media/networks/espn-films.png",
+        "tone": "white"
+      }
+    },
+    {
+      "id": "the-b1g-moment",
+      "title": "The B1G Moment",
+      "image": "assets/media/broadcast/the-b1g-moment.png",
+      "networkLogo": {
+        "name": "Big Ten Network",
+        "src": "assets/media/networks/big-ten-network.svg",
+        "tone": "white"
+      }
+    },
+    {
+      "id": "mel",
+      "title": "MEL",
+      "image": "assets/media/broadcast/mel.png"
+    },
+    {
+      "id": "30-for-30",
+      "title": "30 for 30",
+      "image": "assets/media/broadcast/30-for-30-source.jpg",
+      "presentation": "Stacked logo on the right of supplied image; portrait web layout with Editorial Department footer.",
+      "networkLogo": {
+        "name": "ESPN Films",
+        "src": "assets/media/networks/espn-films.png",
+        "tone": "black"
+      }
+    }
+  ],
+  "featuredId": "the-giant"
+}
