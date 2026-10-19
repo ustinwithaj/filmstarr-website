@@ -134,7 +134,10 @@ p,h1,h2,h3 { margin:0; }
 .contact-section { display:grid; grid-template-columns:1fr 3fr; gap:2rem; padding-block:3.5rem; border-top:1px solid var(--line); }
 .contact-section h2 { margin-top:.9rem; font-size:clamp(2rem,3.7vw,3.5rem); font-weight:400; letter-spacing:-.055em; line-height:1.06; }
 .contact-copy { max-width:30ch; margin-top:1rem; color:#b5b5b2; font-size:.88rem; line-height:1.7; }
-#inquiry-form { width:100%; max-width:46rem; min-width:0; }
+.inquiry-embed { width:100%; max-width:46rem; min-width:0; }
+.inquiry-embed iframe { display:block; width:100%; min-height:46rem; border:0; background:#fff; }
+.inquiry-fallback { margin-top:.75rem; color:#aaa; font-size:.75rem; line-height:1.5; }
+.inquiry-fallback a { color:#fff; text-decoration:underline; text-underline-offset:.2em; }
 .site-footer { display:flex; align-items:center; justify-content:space-between; gap:1.5rem; border-top:1px solid var(--line); padding-block:1.5rem; font:10px/1.8 var(--mono); color:#aaa; }
 .footer-logo { width:7rem; height:auto; filter:invert(1); }
 /* Dialogs are dark, quiet and consistent with the site. */
