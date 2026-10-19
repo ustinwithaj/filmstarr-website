@@ -7,8 +7,8 @@
   <meta name="description" content="Documentary-style videos, brand stories, and long-form, story-driven content by Justin Starr. filmstarr.">
   <title>filmstarr — video by Justin Starr</title>
   <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' fill='%23080808'/%3E%3Ctext x='8' y='49' font-size='50' fill='white'%3E★%3C/text%3E%3C/svg%3E">
-  <link rel="stylesheet" href="assets/preview.css?v=28-share-preview">
-  <script src="assets/app.js?v=29-stories" defer></script>
+  <link rel="stylesheet" href="assets/preview.css?v=30-live-inquiries">
+  <script src="assets/app.js?v=30-live-inquiries" defer></script>
 </head>
 <body>
   <svg class="logo-filters" xmlns="http://www.w3.org/2000/svg" width="0" height="0" aria-hidden="true" focusable="false">
@@ -199,22 +199,11 @@
         <h2 id="contact-heading">Let’s talk.</h2>
         <p class="contact-copy">Tell me what you have in mind.<br>A rough idea is a good place to start.</p>
       </div>
-      <form id="inquiry-form" aria-labelledby="contact-heading" aria-describedby="form-preview-note">
-        <div class="form-grid">
-          <label>Your name<input type="text" name="name" autocomplete="name" required></label>
-          <label>Email<input type="email" name="email" autocomplete="email" required></label>
-        </div>
-        <div class="form-grid">
-          <label>Preferred start date <span>(optional)</span><input type="date" name="start-date"></label>
-          <label>Target delivery date <span>(optional)</span><input type="date" name="delivery-date"></label>
-        </div>
-        <label>Project details<textarea name="story" rows="3" required placeholder="What are you looking to make, and who is it for?"></textarea></label>
-        <div class="form-actions">
-          <button type="submit" class="primary-button">Preview inquiry</button>
-          <p class="form-preview-note" id="form-preview-note">Preview only. Nothing is sent or saved.</p>
-        </div>
-        <p class="form-result" role="status" hidden>Preview complete. Nothing was sent. The finished form will connect to 17hats.</p>
-      </form>
+      <div class="inquiry-embed">
+        <iframe name="lc_contact_form" title="Filmstarr contact form" width="100%" height="750" loading="lazy" src="https://680242.17hats.com/p#/embed/grztdnnwfwsvxbxxnvkgcrrcksdfrpsz"></iframe>
+        <script src="https://680242.17hats.com/vendor/iframeSizer.min.js" defer></script>
+        <p class="inquiry-fallback">Trouble viewing the form? <a href="https://680242.17hats.com/p#/lcf/grztdnnwfwsvxbxxnvkgcrrcksdfrpsz" target="_blank" rel="noopener noreferrer">Open it in a new tab</a>.</p>
+      </div>
     </section>
   </main>
   <footer class="site-footer page-shell">
@@ -236,8 +225,8 @@
     <p>This is a review copy of the new filmstarr website.</p>
     <dl class="readiness-list">
       <div><dt>Stories</dt><dd>Seven selected videos, using Justin’s chosen thumbnails. For this review, the players use Frame.io. If a player does not open in your browser, use the link below it.</dd></div>
-      <div><dt>Inquiries</dt><dd>The inquiry form is a demonstration and does not send or save anything.</dd></div>
-      <div><dt>Your feedback</dt><dd>Take a look at the layout, wording, video selection, and thumbnails. Permanent video hosting and the finished inquiry flow are still to come.</dd></div>
+      <div><dt>Inquiries</dt><dd>The contact form sends inquiries to filmstarr through 17hats.</dd></div>
+      <div><dt>Your feedback</dt><dd>Take a look at the layout, wording, video selection, and thumbnails. Permanent video hosting is still to come.</dd></div>
     </dl>
   </dialog>
 </body>
